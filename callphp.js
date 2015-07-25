@@ -1,5 +1,5 @@
 $('button').click(function() {
-    if (this.id === 'button-submit') {
+    if (this.id === 'button-signup') {
         console.log(this.id);
         console.log(document.getElementById('name-box').value);
         var peanuts =false, gluten = false, vegann = false;
