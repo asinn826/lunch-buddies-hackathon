@@ -15,19 +15,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </head>
 <body>
-<div class="container">
-<h1>
-Lunch with randoms
-</h1>
-<form role="form">
-  <div class="form-group">
-    <label for="name">Full Name:</label>
-    <input type="name" class="form-control" id="name">
-  </div>
-  <div class="checkbox">
-    <label><input type="checkbox"> Remember me</label>
-  </div>
-  <button type="submit" class="btn btn-default">Submit</button>
-</form>
-</div>
+    <div id="map-canvas"></div>
+    <button class="btn-info">Reset</button>
 </body>
+<script type="text/javascript" src="./googlemaps.js"></script>
