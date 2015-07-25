@@ -92,9 +92,9 @@
             <div class="description_body margin-right">
                 <h1>Love Lunch Buddy Program? </h1>
                 <div class="fa fa-cutlery fa-2x"></div>
-                <p>If you want to attent the join our matchup event every day, every weeek...</p>
+                <p>If you want the join our matchup event every day, every week..</p>
                 <p>Please subscrbe! </P>
-                <p>Also you can specify you diet prefernce, so that we can get better recommendation for you </p>
+                <p>Also you can specify you customize your diet preferences and how you want to involve, we will get better recommendation for you! </p>
             </div>
         </div>
 </section>
@@ -125,7 +125,8 @@
                                             <input type="password" id="inputPassword" required="required"  class="form"  placeholder="Password"/>
                                             <input type="aboutme" name="aboutme" id="aboutme" required="required" class="form" placeholder="Say Something about yourself!!" />
                                                                                         
-                                            <div style = "padding: 15px; font-size:13px; margin-bottom:25px;">
+                                            <div >
+                                            <label style = "padding: 15px; font-size:13px;"> Diet preferces </label>   
                                             <label class="checkbox-inline">
                                                 <input type="checkbox" id="peanuts" value="option1" style = "padding: 15px; font-size:13px; margin-bottom:25px;"> Peanut allergy 
                                             </label>
@@ -136,14 +137,31 @@
                                             <label class="checkbox-inline">
                                                 <input type="checkbox" id="vegan" value="option3" style="padding: 15px; font-size:13px; margin-bottom:25px;">Vegetarian
                                             </label>
+
                                             </div>
+                                            <div >
+                                                <label style = "padding: 15px; font-size:13px;"> Match me up </label>   
+                                            <label class="checkbox-inline">
+                                                <input type="checkbox" id="every day" value="option1" > Every day 
+                                            </label>
+                                            <label class="checkbox-inline">
+                                                <input type="checkbox" id="every week" value="option2" > Every week 
+                                            </label>
+
+                                            <label class="checkbox-inline">
+                                                <input type="checkbox" id="every month" value="option3" > Every month
+                                            </label>
+
+
+                                            </div>
+
                                         </div>
 
                                     </div>
                                     
                                     <div class="col-xs-12">
                                             <!-- Send Button -->
-                                            <button type="submit" id="button-signup" name="submit" class=" form-btn form-btn1 semibold" style="float:center">Sign Up Now!</button> 
+                                            <button type="submit" id="button-signup" name="submit" class=" form-btn form-btn1 semibold" style="float:center">Subscribe Now!</button> 
                                     </div>
                 
                            </div>             
