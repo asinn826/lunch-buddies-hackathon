@@ -1,12 +1,21 @@
 var map;
-// var names = retrieveAllEntriesFromDb();
+var names = retrieveAllEntriesFromDb();
 // var yelpData = callYelp(names.size);
 // var namesAndYelpData = combineNamesAndYelpData(names, yelpData);
 // var mapPlot = plotOnMap(namesAndYelpData);
 
+$(document).ready(function() {
+    $.ajax({
+        url: './loadFromDb.php/',
+        success: function(data){
+            console.log(data);
+             // alert('Added you to the lunch list!');
+        }
+    });
+});
 
 function retrieveAllEntriesFromDb() {
-
+    
 };
 
 function callYelp(numEntries) {

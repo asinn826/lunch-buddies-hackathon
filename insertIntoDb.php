@@ -12,6 +12,7 @@ $vals = array (
 );
 
 // echo json_encode($vals); // THIS CAN BE USED TO DEBUG
+
 // testing mysql db connection
 $servername = "localhost";
 $username = "root";

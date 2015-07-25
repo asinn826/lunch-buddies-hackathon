@@ -8,7 +8,7 @@
 
     <!-- jQuery -->
     <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
-    
+
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
@@ -23,4 +23,3 @@
     <button class="btn-info">Reset</button>
 </body>
 <script type="text/javascript" src="./googlemaps.js"></script>
-<script type="text/javascript" src="./infoProcessor.js"></script>

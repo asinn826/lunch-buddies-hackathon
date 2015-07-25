@@ -1,0 +1,62 @@
+[
+    {
+        "PersonName": "Bob",
+        "PeanutAllergy": "1",
+        "GlutenFree": "1",
+        "Vegan": "1"
+    },
+    {
+        "PersonName": "Jim",
+        "PeanutAllergy": "0",
+        "GlutenFree": "0",
+        "Vegan": "1"
+    },
+    {
+        "PersonName": "Janice",
+        "PeanutAllergy": "0",
+        "GlutenFree": "1",
+        "Vegan": "1"
+    },
+    {
+        "PersonName": "Kim",
+        "PeanutAllergy": "0",
+        "GlutenFree": "1",
+        "Vegan": "0"
+    },
+    {
+        "PersonName": "jenny",
+        "PeanutAllergy": "1",
+        "GlutenFree": "1",
+        "Vegan": "1"
+    },
+    {
+        "PersonName": "qwe",
+        "PeanutAllergy": "0",
+        "GlutenFree": "0",
+        "Vegan": "1"
+    },
+    {
+        "PersonName": "qweqwe",
+        "PeanutAllergy": "1",
+        "GlutenFree": "0",
+        "Vegan": "0"
+    },
+    {
+        "PersonName": "",
+        "PeanutAllergy": "0",
+        "GlutenFree": "0",
+        "Vegan": "0"
+    },
+    {
+        "PersonName": "asdqwe",
+        "PeanutAllergy": "1",
+        "GlutenFree": "0",
+        "Vegan": "1"
+    },
+    {
+        "PersonName": "BOBERT",
+        "PeanutAllergy": "1",
+        "GlutenFree": "1",
+        "Vegan": "0"
+    }
+]
