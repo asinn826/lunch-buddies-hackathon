@@ -17,7 +17,7 @@
 
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="./callphp.js"></script>
+    <!--<script type="text/javascript" src="./callphp.js"></script>-->
 </head>
 <body>
 <div class="container">
@@ -27,7 +27,7 @@ Lunch with randoms
 <form role="form">
   <div class="form-group">
     <label for="name">Full Name:</label>
-    <input type="name" class="form-control" id="name" id="textbox-val">
+    <input type="name" class="form-control" id="name-box">
   </div>
   <div class="checkbox">
     <div class="checkbox">
@@ -40,7 +40,27 @@ Lunch with randoms
       <label><input type="checkbox" value="vegan" id="vegan">Vegan?</label>
     </div>
   </div>
-  <button type="submit" class="btn btn-default">Submit</button>
+  <button type="submit" class="btn btn-default" id="button">Submit</button>
 </form>
 </div>
 </body>
+<script src="./callphp.js"></script>
+<!-- 
+<script>
+$('button').click(function() {
+    console.log(document.getElementById('name-box').value);
+    var postData = {
+      "fullName" : document.getElementById('name-box').value,
+    }
+    $.ajax({
+        url: './test.php',
+        data: { 
+          fullName : document.getElementById('name-box').value
+        },
+        success: function(){
+             alert('Added you to the lunch list!');
+        }
+    });
+    return false;
+});
+</script> -->
