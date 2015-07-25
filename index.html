@@ -20,47 +20,34 @@
     <!--<script type="text/javascript" src="./callphp.js"></script>-->
 </head>
 <body>
-<div class="container">
-<h1>
+<div class="container text-center">
+  <div class="pull-right magic-button" >
+    <button type="button" class="btn btn-primary" id="magic-button">Magic button</button>
+  </div>
+
+<h1 class="h1">
 Lunch with randoms
 </h1>
+
+
 <form role="form">
   <div class="form-group">
     <label for="name">Full Name:</label>
     <input type="name" class="form-control" id="name-box">
   </div>
-  <div class="checkbox">
-    <div class="checkbox">
+  <div class="checkbox checkbox-wrapper">
+    <div class="checkbox checkbox-content">
       <label><input type="checkbox" value="peanuts" id="peanuts">Peanut allergy?</label>
     </div>
-    <div class="checkbox">
+    <div class="checkbox checkbox-content">
       <label><input type="checkbox" value="gluten-free" id="gluten-free">Gluten free?</label>
     </div>
-    <div class="checkbox">
+    <div class="checkbox checkbox-content">
       <label><input type="checkbox" value="vegan" id="vegan">Vegan?</label>
     </div>
   </div>
-  <button type="submit" class="btn btn-default" id="button">Submit</button>
+  <button type="submit" class="btn btn-default" id="button-submit">Submit</button>
 </form>
 </div>
 </body>
 <script src="./callphp.js"></script>
-<!-- 
-<script>
-$('button').click(function() {
-    console.log(document.getElementById('name-box').value);
-    var postData = {
-      "fullName" : document.getElementById('name-box').value,
-    }
-    $.ajax({
-        url: './test.php',
-        data: { 
-          fullName : document.getElementById('name-box').value
-        },
-        success: function(){
-             alert('Added you to the lunch list!');
-        }
-    });
-    return false;
-});
-</script> -->

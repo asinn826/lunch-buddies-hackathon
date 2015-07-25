@@ -2,4 +2,25 @@
         height: 100%;
         margin: 0;
         padding: 0;
-      }
+}
+
+.checkbox-content {
+    /*margin: 0 auto;*/
+    margin: auto;
+    width: 20%;
+    padding: 10px;
+    text-align: left;
+}
+
+.checkbox-wrapper {
+    padding-left: 10%;
+}
+
+.h1 {
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+.magic-button {
+    margin-top: 10px;
+}

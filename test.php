@@ -1,26 +1,18 @@
 <?php
-echo "ROFL";
-$fullName = $_POST['name-box'];
-echo $fullName;
-// // testing mysql db connection
-// $servername = "localhost";
-// $username = "root";
-// $password = "";
+// testing mysql db connection
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "restaurants";
 
-// // Create connection
-// $conn = mysqli_connect($servername, $username, $password);
+// Create connection
+$conn = mysqli_connect($servername, $username, $password, $dbname);
 
-// // Check connection
-// if (!$conn) {
-//     die("Connection failed: " . mysqli_connect_error());
-// }
-// echo "Connected successfully";
+// Check connection
+if (!$conn) {
+    die("Connection failed: " . mysqli_connect_error());
+}
 
-// $html = file_get_contents('./index.php');
-// $doc = new DOMDocument();
-// libxml_use_internal_errors(true);
-// $doc->loadHTML($html);
-// $finder = new DomXPath($doc);
-// $node = $finder->query("//*[contains(@class, 'form-control')]");
-// echo $node;
+echo "Connection successful";
+
 ?> 
