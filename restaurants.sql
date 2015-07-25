@@ -1,3 +1,4 @@
+drop table users;
 drop database restaurants;
 create database restaurants;
 use restaurants;

@@ -1,7 +1,7 @@
 $('button').click(function() {
-    if (this.id === 'button-signup') {
+    if (this.id === 'matchup') {
         console.log(this.id);
-        console.log(document.getElementById('name-box').value);
+        console.log("name-box val: " + document.getElementById('name-box').value);
         var peanuts =false, gluten = false, vegann = false;
         if ($('input[type="checkbox"]')[0].checked) {
             peanuts = true;
@@ -23,12 +23,15 @@ $('button').click(function() {
             data: postData,
             success: function(data){
                 console.log(data);
-                 // alert('Added you to the lunch list!');
+                // alert('Added you to the lunch list!');
             }
         });
-        return false;
-    } else if (this.id === 'magic-button') {
+        this.form.reset();
         window.location.href = "./map.php";
-    }
+        return false;
+    } 
+    // else if (this.id === 'magic-button') {
+    //     window.location.href = "./map.php";
+    // }
     
 });

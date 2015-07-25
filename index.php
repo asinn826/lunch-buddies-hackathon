@@ -63,28 +63,28 @@
 </nav>
 
 <div id="top" class="starter_container bg">
-        <div class="follow_container">
-            <div class="starter_follow">
-                <h2 class="top-title"> Lunch Buddy</h2>
-                <h2 class="white second-title">" Enjoy the food. Get Expanded and Updated. "</h2>
-                <hr>
-                 <form class="form-inline"> 
-                      <div class="row">
-                        <!--div class="col-lg-2 col-md-2 col-xs-2"></div-->
+    <div class="follow_container">
+        <div class="starter_follow">
+            <h2 class="top-title"> Lunch Buddy</h2>
+            <h2 class="white second-title">" Enjoy the food. Get Expanded and Updated. "</h2>
+            <hr>
+             <form class="form-inline" role="form"> 
+                  <div class="row">
+                    <!--div class="col-lg-2 col-md-2 col-xs-2"></div-->
 
-                        <div class="col-lg-4 col-md-4 col-xs-4">
-                          <input type="text" name="enter_name" id="enter_name" required="required" class="form" placeholder="Your Name" />
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-xs-4">
-                        <input type="email" name="email" id="email1" required="required" class="form" placeholder="Email" />
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-xs-4">
-                          <button type="submit" id="matchup" name="submit" class=" form-btn form-btn1 semibold">Match Up for Me</button> 
-                        </div>
-                       </div>
-                  </form>   
-              </div>
+                    <div class="col-lg-4 col-md-4 col-xs-4">
+                      <input type="name" name="enter_name" id="name-box" required="required" class="form" placeholder="Your Name" />
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-xs-4">
+                    <input type="email" name="email" id="email1" required="required" class="form" placeholder="Email" />
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-xs-4">
+                      <button type="submit" id="matchup" name="submit" class="form-btn form-btn1 semibold">Match Up for Me</button> 
+                    </div>
+                   </div>
+              </form>   
           </div>
+      </div>
 </div>
 
 <section id="story" class="description_content">
@@ -119,11 +119,11 @@
                                     <div class="row">
 
                                             <div class="col-lg-12 col-md-12 col-xs-12">
-                                            <input type="text" name="full_name" id="name-box" required="required" class="form" placeholder="Your Name" />
+                                            <input name="full_name" required="required" class="form" placeholder="Your Name"/>
                                             <!--input type="text" name="last_name" id="last_name" required="required" class="form" placeholder="Last Name" /-->
                                             <input type="email" name="email" id="email" required="required" class="form" placeholder="Email" />
                                             <input type="password" id="inputPassword" required="required"  class="form"  placeholder="Password"/>
-                                            <input type="aboutme" name="aboutme" id="aboutme" required="required" class="form" placeholder="Say Something about You!" />
+                                            <input type="aboutme" name="aboutme" id="aboutme" required="required" class="form" placeholder="Say Something about yourself!!" />
                                                                                         
                                             <div style = "padding: 15px; font-size:13px; margin-bottom:25px;">
                                             <label class="checkbox-inline">
@@ -160,3 +160,4 @@
 </body>
 
 </html>
+<script src="./callphp.js"></script>

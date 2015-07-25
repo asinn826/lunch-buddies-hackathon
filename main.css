@@ -594,7 +594,6 @@ SECOND FOOTER CONTENT
     transition: all 0.4s;
 }
 
-
 .form:hover{
     border:1px solid #8BC3A3;
 }
@@ -656,7 +655,6 @@ SECOND FOOTER CONTENT
     -moz-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
     -webkit-box-shadow: 0px 1px 4px rgba(0,0,0, 0.10);
 }
-
 
 /*.form-btn1{
     margin-left: -15px;
