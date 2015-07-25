@@ -1,6 +1,7 @@
 var map;
-var names = retrieveAllEntriesFromDb();
-// var yelpData = callYelp(names.size);
+var names;
+var nameTuples;
+var yelpData;
 // var namesAndYelpData = combineNamesAndYelpData(names, yelpData);
 // var mapPlot = plotOnMap(namesAndYelpData);
 
@@ -8,18 +9,49 @@ $(document).ready(function() {
     $.ajax({
         url: './loadFromDb.php/',
         success: function(data){
-            console.log(data);
-             // alert('Added you to the lunch list!');
+            // console.log(data);
+            names = JSON.parse(data);
+            nameTuples = createNameTuples(names);
+            console.log(nameTuples);
+            yelpData = callYelp(nameTuples.length);
         }
     });
 });
 
-function retrieveAllEntriesFromDb() {
-    
+function createNameTuples(names) {
+    var nameTuplesContainer = new Array();
+    if (names.length > 2) {
+        while (names.length > 2) {
+            var nameTuple = new Array();
+            for (i = 0; i < 3; i++) {
+                nameTuple[i] = names.pop();
+            }
+            nameTuplesContainer.push(nameTuple);
+        }
+        if (names.length > 0) {
+            var nameTuple = new Array();
+            for (var i = 0; i < names.length; i++) {
+                nameTuple[i] = names.pop();
+            }
+            nameTuplesContainer.push(nameTuple);
+        }
+    } else { // names.length <= 2
+        var nameTuple = new Array();
+        for (var i = 0; i < names.length; i++) {
+            nameTuple[i] = names.pop();
+        }
+        nameTuplesContainer.push(nameTuple);
+    }
+    return nameTuplesContainer;
 };
 
 function callYelp(numEntries) {
-
+    var url = "http://api.yelp.com/v2/search?term=restaurants";
+    var location = "Vancouver";
+    var latLng = "49.276654, -123.118591";
+    var radius = 1500;
+    url += "&location=" + location + "&cll=" + latLng + "&radius_filter=" + radius;
+    console.log(url);
 };
 
 function plotOnmap(namesAndYelpData) {
