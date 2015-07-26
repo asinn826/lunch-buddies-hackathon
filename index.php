@@ -65,8 +65,8 @@
 <div id="top" class="starter_container bg">
     <div class="follow_container">
         <div class="starter_follow">
-            <h2 class="top-title"> Lunch Buddy</h2>
-            <h2 class="white second-title">" Enjoy the food. Get Expanded and Updated. "</h2>
+            <h2 class="top-title"> Lunch Buddies</h2>
+            <h2 class="white second-title">"Join for the food. Stay for the people."</h2>
             <hr>
              <form class="form-inline" role="form"> 
                   <div class="row">
@@ -79,7 +79,7 @@
                     <input type="email" name="email" id="email1" required="required" class="form" placeholder="Email" />
                     </div>
                     <div class="col-lg-4 col-md-4 col-xs-4">
-                      <button type="submit" id="matchup" name="submit" class="form-btn form-btn1 semibold">Match Up for Me</button> 
+                      <button type="submit" id="matchup" name="submit" class="form-btn form-btn1 semibold">Match Me!</button> 
                     </div>
                    </div>
               </form>   
@@ -90,18 +90,16 @@
 <section id="story" class="description_content">
         <div class="limit">
             <div class="description_body margin-right">
-                <h1>Love Lunch Buddy Program? </h1>
+                <h1>Love having Lunch Buddies? </h1>
                 <div class="fa fa-cutlery fa-2x"></div>
-                <p>If you want to attent the join our matchup event every day, every weeek...</p>
-                <p>Please subscrbe! </P>
-                <p>Also you can specify you diet prefernce, so that we can get better recommendation for you </p>
+                <p>You can have Lunch Buddies every day of every week!</p>
+                <p>Sign up now!</p>
             </div>
         </div>
 </section>
  
 <section id="reservation" class="background_content">
-        <h1>
-        Subscribe Lunch Buddy</h1>
+        <h1>Sign up for Lunch Buddies now!</h1>
 </section>
 
 <section class="description_content">

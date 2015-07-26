@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
     <link href="./main.css" rel="stylesheet" />
+    <link href="./custom.css" rel="stylesheet" />
 
     <!-- jQuery -->
     <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
@@ -37,23 +38,52 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
+
+                <div class='pull-right'>
+                    <button class="button btn-info" id="btn-reset">Back</button>
+                </div>
             </div>
+
+            <div style="font-family: 'Pacifico', cursive; font-size: 34px;">Lunch Buddies Results 
+                <?php
+                    echo date('Y-m-d');
+                ?>
+            </div>
+
+
 
              <!--div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav main-nav  clear navbar-right ">
-                    <li><a class="color_animation" href="#featured">FEATURED</a></li>
+                    <li></li>
                     <li><a class="color_animation" href="#reservation">RESERVATION</a></li>
                     <li><a class="color_animation" href="#contact">CONTACT</a></li>
                 </ul>
             </div--><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
 </nav>
+<br><br><br>
 
-<div class="col-md-8 map-container" style="margin-top: 50px; padding-left: 0px;padding-right: 0px; height: 100%">
-  <div id="map-canvas" style='width: 100%; height: 850px;'></div>
+<div id="carousel-example" class="carousel slide carousel-custom" data-ride="carousel">
+    <!-- Wrapper for slides -->
+    <div class="row">
+        <div class="col-xs-offset-3 col-xs-6">
+            <div class="carousel-inner" id="carousel-inner-custom">
+            </div>
+        </div>
+    </div>
+    <!-- Controls --> <a class="left carousel-control" href="#carousel-example" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+ <a class="right carousel-control" href="#carousel-example" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+
 </div>
-    <!-- <div id="map-canvas"></div> -->
-    <button class="button btn-info" id="btn-reset">Reset</button>
+
+    <div class="map-container" style="margin-top: 0px; padding-left: 0px;padding-right: 0px; height: 100%">
+      <div id="map-canvas" style='width: 100%; height: 650px;'></div>
+    </div>
+
 </body>
 <script type="text/javascript" src="./googlemaps.js"></script>
 <script type="text/javascript" src="./callresetphp.js"></script>

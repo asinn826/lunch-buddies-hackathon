@@ -16,4 +16,20 @@ insert into users (PersonName, PeanutAllergy, GlutenFree, Vegan)
 insert into users (PersonName, PeanutAllergy, GlutenFree, Vegan)
     values('Janice', 0, 1, 1);
 insert into users (PersonName, PeanutAllergy, GlutenFree, Vegan)
-    values('Kim', 0, 1, 0);
+    values('Jerry', 0, 1, 0);
+insert into users (PersonName, PeanutAllergy, GlutenFree, Vegan)
+    values('Jonathan', 0, 1, 0);
+insert into users (PersonName, PeanutAllergy, GlutenFree, Vegan)
+    values('Kimberly', 0, 1, 0);
+insert into users (PersonName, PeanutAllergy, GlutenFree, Vegan)
+    values('Sally', 0, 1, 0);
+insert into users (PersonName, PeanutAllergy, GlutenFree, Vegan)
+    values('Harry', 0, 1, 0);
+insert into users (PersonName, PeanutAllergy, GlutenFree, Vegan)
+    values('Donald', 0, 1, 0);
+insert into users (PersonName, PeanutAllergy, GlutenFree, Vegan)
+    values('Shaquila', 0, 1, 0);
+insert into users (PersonName, PeanutAllergy, GlutenFree, Vegan)
+    values('Larry', 0, 1, 0);
+insert into users (PersonName, PeanutAllergy, GlutenFree, Vegan)
+    values('Gordon', 0, 1, 0);
