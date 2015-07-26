@@ -33,3 +33,5 @@ insert into users (PersonName, PeanutAllergy, GlutenFree, Vegan)
     values('Larry', 0, 1, 0);
 insert into users (PersonName, PeanutAllergy, GlutenFree, Vegan)
     values('Gordon', 0, 1, 0);
+insert into users (PersonName, PeanutAllergy, GlutenFree, Vegan)
+    values('Alex', 0, 1, 0);
